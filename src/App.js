@@ -1,4 +1,3 @@
-import './App.css';
 import { 
   FormControlLabel, TextField, Checkbox, Button
  } from '@mui/material';
@@ -31,6 +30,7 @@ function App() {
         type="submit"
         fullWidth
         variant='contained'
+        color="secondary"
       >Sign in</Button>
     </div>
   )
